@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style type="text/css" media="screen">
+    	td{
+    	    border: 1px solid #000;
+    	}
+    	th{
+    	    border: 1px solid #000;
+    	}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>table title and/or explanatory text</caption>
+        <thead>
+            <tr>
+                <th>Tiêu Đề</th>
+                <th>Nội Dung</th>
+                <th>Email</th>
+                <th>cc</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- <td>{{td}}</td>
+                <td>{{nd}}</td>
+                <td>{{email}}</td>
+                <td>{{c}}</td> -->
+                <td>{{email_data.title}}</td>
+                <td>{{email_data.noidung}}</td>
+                <td>{{email_data.email}}</td>
+                <td>{{email_data.cc}}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
